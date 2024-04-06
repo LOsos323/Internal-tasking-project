@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Web.config" />
+  </ItemGroup>
+
 </Project>

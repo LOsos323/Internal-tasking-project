@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{CEB5A669-834A-41A5-88BE-1A82EE105F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{CEB5A669-834A-41A5-88BE-1A82EE105F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trak.Domain", "Trak.Domain\Trak.Domain.csproj", "{4D1D7901-0BB2-4AF5-855E-AAFADAA92053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CEB5A669-834A-41A5-88BE-1A82EE105F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB5A669-834A-41A5-88BE-1A82EE105F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB5A669-834A-41A5-88BE-1A82EE105F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1D7901-0BB2-4AF5-855E-AAFADAA92053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1D7901-0BB2-4AF5-855E-AAFADAA92053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1D7901-0BB2-4AF5-855E-AAFADAA92053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1D7901-0BB2-4AF5-855E-AAFADAA92053}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
